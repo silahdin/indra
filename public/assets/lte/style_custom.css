@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: 'Poppins';
+    
+}
+.skin-blue .main-header .logo{
+    background-color: #13d0d5;
+    transition: all ease .5s;
+}
+.skin-blue .main-header .navbar{
+    /* background-image: linear-gradient(red, yellow, blue); */
+    background-image: linear-gradient(120deg, #00e4d0, #5983e8);
+
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #1750c7;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #3c6bcd;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    padding: 0;
+    margin: 0;
+    background: #537acb;
+}
+.sidebar-menu>li{
+    font-size: 13px;
+}
+.skin-blue .sidebar-menu>li.header {
+    color: #ffffff;
+    background: #1d48aa;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #3c6bcd;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+    color: #c0c7c9;
+}
+.treeview-menu>li {
+    padding: 3px 5px 3px 15px;
+}
+
+.treeview-menu>li.active{
+    background: #5b86e0;
+}
+.box.box-primary {
+    border-top-color: #1dc4d8;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #fff;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-nav>.user-menu .user-image {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+
+.text-success {
+    color: #1eec22;
+}
+.main-header .navbar .nav>li.user>a>.fa, .main-header .navbar .nav>li.user>a>.glyphicon, .main-header .navbar .nav>li.user>a>.ion {
+    float: right;
+    font-size: 8px;
+    margin-top: 4px;
+}
+
+
+
+.c-label-error{
+    background: red !important;
+    padding: 7px 12px;
+    border-radius: 4px;
+    color: white;
+}
+.c-label-succes{
+  background: green !important;
+  padding: 7px 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+.c-label-primary{
+  background: lightseagreen !important;
+  padding: 7px 12px;
+  border-radius: 4px;
+  color: white;
+}
+.c-label-default{
+  background: grey !important;
+  padding: 7px 12px;
+  border-radius: 4px;
+  color: #fffa;
+}
+
+
+
+
+/* CARD */
+.stretch-card {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+    margin-bottom: 25px;
+}
+.stretch-card > .card {
+    width: 100%;
+    min-width: 100%;
+    background: white;
+    padding: 1.88rem 1.81rem;
+}
+.card .card-body {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-body h3{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.icon-fb{
+    font-size: 60px;
+}
+.card-body {
+    flex: 1 1 auto;
+}
+.text-muted {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.fs-11{
+    font-size: 11px;;
+}
+.fs-12{
+    font-size: 12px;;
+}
+
+
+.btn-primary {
+    background-color: #0e95e3;
+    border-color: #ffffff;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 25px !important;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+    padding-left: 0;
+}
+.skin-blue .sidebar a {
+    font-size: 13px;
+}
+
+.btn{
+    transition: all ease .4s;
+}
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {
+    background-color: #509cc8;
+}
+
+.reverse{
+    display: flex;
+    text-align: right;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.reverse p {
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+}
+
+.zakat-text{
+    text-align: right;
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+}
+
+.zakat-head{
+    margin: 0;
+    color: #02e2d1;
+    font-size: 20px;
+}
+.zakat-head-2{
+    margin: 0;
+    color: #22bfd9;
+    font-size: 20px;
+}
+.zakat-head-3{
+    margin: 0;
+    color: #36a9df;
+    font-size: 20px;
+}
+.zakat-head-4{
+    font-size: 20px;
+    margin: 0;
+    color: #4f8fe6;
+}
+
+.progress {
+    height: auto;
+    display: flex;
+    height: 6px;
+    margin-bottom: 0;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.text-progress{
+    color: #02e2d1;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.progress .progress-bar{
+    background-color: #02e2d1;
+}
+
+
+.rp{
+    font-size: 16px;
+}
+
+.logo-lg img{
+    height: 39px;
+    margin-bottom: 4px;
+}
+
+
+.skin-blue .main-header .logo:hover{
+    background-color: transparent;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover {
+    background-color: #1750c7;
+}
+.treeview-menu .treeview-menu {
+    padding-left: 5px;
+}
+

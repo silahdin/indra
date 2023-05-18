@@ -1,0 +1,471 @@
+
+@media only screen and (min-width: 577px) { /* selama lebar lebih dari ini */
+
+
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > li > a{
+  vertical-align:middle;
+  display: table-cell;
+  font-size: 15px;
+  padding: 8px 8px 8px 8px;
+}
+
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > li > input{
+  height: 37px;
+}
+
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > li{
+    margin-bottom: 0;
+    padding: 10px;
+
+}
+
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > li.active{
+	background-color: #c83a6d;
+}
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > .nav-home.active{
+	background-color: white;
+}
+
+.navbar-marketplace > .container > .navbar-collapse > ul.nav > .active > a{
+	background-color: #c83a6d;
+	color: white;
+}
+
+.navbar-right{
+	height: 56px;
+}
+.p-fixed-tiny {
+    position: fixed;
+    min-height: 32px;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+nav.p-fixed-real {
+  background-color: white;
+    position: fixed;
+    top: 32px;
+    width: 100%;
+    z-index: 6;
+    box-shadow: 0px 1px 4px #818080;  
+}
+a.navbar-brand{
+
+padding-top: .3125rem;
+    padding-bottom: .3125rem;
+}
+
+li.nav-item-border{
+    border-left: 1px solid rgb(213,72,124);
+    border-image: linear-gradient(to bottom, rgba(213,222,226,0) 20%,rgba(213,72,124,.2) 20%,rgba(213,72,124,.2) 80%,rgba(235,222,226,0) 80%);
+    border-image-slice: 1;  
+}
+.navbar-inverse .navbar-nav>.nav-home>a{
+  background-color: white;
+}
+
+.navbar-inverse .navbar-nav>.nav-home>a:hover{
+  background-color: white;
+}
+
+
+.navbar-inverse .navbar-nav> li >a:hover{
+  color: #838383;
+}
+
+.navbar-inverse .navbar-nav> li >a{
+  color: #838383;
+}
+
+.line-horizon{
+margin-top: 6px;
+    height: 60%;
+    display: block;
+    /* width: 1px; */
+    /* background-color: red; */
+    border-right: solid white 1px;
+}
+
+.link-language-in{
+	border-left: solid 1px white;
+}
+
+.link-language-en{
+	border-right: solid 1px white;
+}
+
+.item-right{
+	margin-right: 25px;
+}
+
+
+.navbar-brand > img{
+  width: 170px;
+}
+
+
+.navbar-mobile{
+  display: none;
+}
+.wrapper-mobile{
+  display: none
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px) { /* selama lebar kurang dari ini */
+
+
+
+.shadow-menu-fixed{
+  height: 0;
+  position: static;
+}
+
+.p-fixed-tiny{
+  display: none;
+}
+
+
+nav.p-fixed-real{
+  position: fixed;
+  z-index: 8;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 4px #818080;  
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #7f7f7f;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle{
+  border: none;
+}
+
+.navbar-header{
+  display: block;
+}
+nav.navbar{
+  border: none;
+}
+
+ul.navbar-nav{
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+
+.navbar-brand{
+  padding: 5px 5px;
+}
+.navbar-brand > img{
+  width: 130px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: lightgray;
+}
+
+
+.tombol-iseng{
+  padding:  5px 10px;
+}
+
+ul.navbar-nav > li:first-child{
+  border-top:  none;
+}
+
+ul.navbar-nav > li{
+  border-top: solid 1px lightgray;
+  margin-bottom: 0;
+}
+
+
+ul.navbar-nav > li > .form-control{
+  margin: 12px 10px ;
+  width: 95%;
+}
+
+
+  .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+      color: #9d9daa;
+      background-color: transparent;
+  }
+
+  .navbar-mobile{
+    position: relative;
+  }
+  .navbar-mobile > .enlarge-btn{
+    background-color: #5f5d5d;
+    text-align: center;
+
+  } 
+  .navbar-mobile > .enlarge-btn > button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: all ease-in 0.4s;
+  }
+  .navbar-mobile > .enlarge-btn > button:hover{
+    color: #d74d80;
+    cursor: pointer;
+  }
+  .navbar-mobile > .enlarge-btn > button > span{
+    font-size: 26px;
+  }
+  .wrapper-mobile{
+    background-color: rgba(0, 0, 0, .9);
+    transition: transform 0.4s ease;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;   
+  }
+  .transform-mobile{
+    transform: translateX(-100%);
+  }
+
+  .wrapper-mobile > .head-mobile > button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: -5px;
+    margin-left: 3px;
+    transition: all ease-in 0.4s;
+    font-size: 26px;
+  }
+  .wrapper-mobile > .head-mobile > button:hover{
+    color: #d74d80;
+    cursor: pointer;
+  }
+
+.wrapper-mobile > ul{
+  padding-left: 0;
+}
+.wrapper-mobile > ul > li{
+  list-style: none;
+  margin-bottom: 0;
+}
+.wrapper-mobile > ul > li > a{
+  padding-left: 10px;
+  font-size: 13px;
+  border-bottom:  solid #c6b6b6 1px;
+  width: 100%;
+  display: block;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all ease-in 0.5s;
+}
+
+.wrapper-mobile > ul > li > a:hover{
+  background-color: #c83a6d;
+}
+.wrapper-mobile > ul > li:first-child{
+  border-top:  solid #c6b6b6 1px;
+}
+.wrapper-mobile > ul > li > a.actived{
+  /* border-top:  solid #c6b6b6 1px; */
+  color: grey;
+}
+
+.search::placeholder{
+      background-color: #c83a6d;
+}
+
+.navbar-header > button{
+  margin-right: 0;
+}
+
+
+
+.wrapper-fixed{ 
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;  
+}
+
+
+.banner-section{
+  margin-top: 80px;
+}
+
+
+
+.similar_cars > h3{
+  font-size: 20px;
+}
+
+
+
+.about-us-section{
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+
+.page-header{
+  margin-top: 79px;
+}
+
+
+.contact_us > div > div > div > h3{
+  font-size: 22px;
+}
+.contact_us {
+  padding-top: 20px;
+  padding-bottom: 10px
+}
+
+.contact_info_m{
+  font-size: 13px
+}
+
+.contact_form{
+  margin-bottom: 40px;
+}
+
+
+.copyright-p{
+  font-size: 13px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) { /* selama lebar kurang dari ini */
+
+
+
+
+
+#cos-transmisi{
+  width: 100% !important;
+  display: block;
+
+}
+
+
+
+
+
+
+#cos-year{
+  width: 100% !important;
+  display: block;
+}
+#cos-year-end{
+  width: 49%  !important;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 476px) { /* selama lebar kurang dari ini */
+
+
+#cos-kota{
+  width: 100% !important;
+  display: block;
+
+}
+
+#cos-harga{
+  width: 100% !important;
+  display: block;
+  
+}
+#cos-harga-max{
+  width: 49% !important;
+  /* display: block; */
+  
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 408px) { /* selama lebar kurang dari ini */
+
+#cos-harga-max{
+  width: 46% !important;
+  /* display: block; */
+  
+}
+#cos-year-end{
+  width: 47%  !important;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 408px) { /* selama lebar kurang dari ini */
+
+
+#cos-merek{
+  width: 100% !important;
+  display: block;
+  
+}
+
+
+#cos-model{
+  width: 100% !important;
+  display: block;
+  
+}
+
+}

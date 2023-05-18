@@ -1,0 +1,10 @@
+.pagination>.active>a{
+  background-color: #c83a6d;
+    border-color: #c83a6d;
+}
+
+.pagination>.active>a:hover{
+  background-color: #cb1a5a;
+    border-color: #cb1a5a;
+}
+
